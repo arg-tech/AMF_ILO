@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+ amf_ari:
+  container_name: amf_ilo
+  build: .
+  ports:
+  - "8000:5000"
